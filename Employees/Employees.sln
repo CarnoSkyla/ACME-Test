@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "Employees.csproj", "{C346B85B-10C8-47C4-948B-DA786A982B6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employees", "Employees.csproj", "{C346B85B-10C8-47C4-948B-DA786A982B6C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EmployeeDB", "..\..\..\..\..\..\..\Projects\EMPLOYEES\EmployeeDB\EmployeeDB.sqlproj", "{DF46AE17-0B49-46C6-A920-F72FB9BDCAD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{C346B85B-10C8-47C4-948B-DA786A982B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C346B85B-10C8-47C4-948B-DA786A982B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C346B85B-10C8-47C4-948B-DA786A982B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF46AE17-0B49-46C6-A920-F72FB9BDCAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF46AE17-0B49-46C6-A920-F72FB9BDCAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF46AE17-0B49-46C6-A920-F72FB9BDCAD3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DF46AE17-0B49-46C6-A920-F72FB9BDCAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF46AE17-0B49-46C6-A920-F72FB9BDCAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF46AE17-0B49-46C6-A920-F72FB9BDCAD3}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
